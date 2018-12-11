@@ -334,7 +334,6 @@ button {
    ========================================================================== */
 .hero_section {
   background-image: url(/img/mainpage.jpg);
-  background-color: #f8a05f;
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -886,6 +885,16 @@ ul.nav > li.active > a {
   .navbar-collapse {
     margin: 0;
   }
+}
+.comment {
+  font-size: 2em;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.hover_effect {
+  display: flex;
+  justify-content: center;
 }
 /*
     Theme Responsive Design
