@@ -10,6 +10,8 @@ Your updated Portfolio has the following content:
 
 - Links to my GitHub profile & LinkedIn page as well as email address
 
+Website link: https://lidiawebdev.github.io/Portfolio/
+
  
 
 
