@@ -1,6 +1,6 @@
 # Portfolio
 Employer competitive one -page portfolio that includes:
-- intro part wth navbar on portfolio and contaact part, includes resume
+- intro part wth navbar on portfolio and contact part, includes resume
 - portfolio part has major works such as project one ( tour), trivia game, word game, psychic game, crystal collector. 
 - conact page brings to an html opened form
 
