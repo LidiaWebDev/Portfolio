@@ -1,26 +1,6 @@
-/* Thinny By TeamXcel */
-
-/*  ==========================================================================
-    Table of Contets
-    ==========================================================================
-    
-    1.0 Common Styles
-    2.0 Hero Section
-    3.0 About Section
-    4.0 Portfolio Section
-    5.0 Contact Section
-    6.0 Footer Section
-    7.0 Scroll to Top
-
-    ==========================================================================
-    Thinny
-    ========================================================================== */
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto");
 
-/*  ==========================================================================
-    Common Styles
-    ========================================================================== */
+/* main part*/
 * {
   padding: 0;
   margin: 0;
@@ -84,16 +64,12 @@ img {
   outline: none;
 }
 ul {
-  display: block;
+  /* display: block; */
   list-style: none;
   padding: 0;
   margin: 0;
 }
-p,
-li,
-a,
-span {
-}
+
 p {
   font-size: 14px;
   margin-bottom: 15px;
@@ -291,8 +267,8 @@ body.loaded #preloader {
 }
 
 /* Button Style */
-.btn_group {
-}
+/* .btn_group {
+} */
 .btn_group a {
   margin: 5px;
 }
@@ -329,9 +305,7 @@ button {
   transition: all 0.5s;
 }
 
-/* ==========================================================================
-   Hero Section
-   ========================================================================== */
+/* Profile  */
 .hero_section {
   background-image: url(/img/mainpage.jpg);
   background-position: center center;
@@ -380,6 +354,7 @@ button {
   border-radius: 50%;
 } */
 .hero_content {
+  display: flexbox;
 }
 .hero_content h1 {
   font-size: 32px;
@@ -389,13 +364,12 @@ button {
   margin: 0;
 }
 
-/* ==========================================================================
-   About Section
-   ========================================================================== */
-.about_section {
+/* About section */
+
+/* .about_section {
 }
 .about_content {
-}
+} */
 .service_list {
   position: relative;
 }
@@ -434,10 +408,8 @@ button {
   left: auto;
   right: -40px;
 }
+/* Portfolio section */
 
-/* ==========================================================================
-   Portfolio Section
-   ========================================================================== */
 .portfolio_section {
   border-bottom: 1px solid #eaeaea;
 }
@@ -465,8 +437,8 @@ button {
 .portfolio_item img {
   width: 100%;
 }
-.portfolio_section .portfolio_items {
-}
+/* .portfolio_section .portfolio_items {
+} */
 .portfolio_section .portfolio_items li {
   padding: 1px;
 }
@@ -512,13 +484,11 @@ button {
   visibility: visible;
 }
 
-/* ==========================================================================
-   Contact Section
-   ========================================================================== */
-.contact_form {
+/* Contact section */
+/* .contact_form {
 }
 .contact_form .form-group {
-}
+} */
 .contact_form .form-group {
   margin-bottom: 20px;
 }
@@ -543,9 +513,8 @@ button {
   display: block;
 }
 
-/* ==========================================================================
-   Footer Section
-   ========================================================================== */
+/* Footer */
+
 .footer_section {
   background-color: #222;
   display: block;
@@ -571,9 +540,8 @@ button {
   color: #fff;
 }
 
-/* ==========================================================================
-   Scroll to Top
-   ========================================================================== */
+/* Scroll to top */
+
 #scroll-to-top {
   background-color: #111;
   display: none;
@@ -594,9 +562,8 @@ button {
   color: #fff;
 }
 
-/* ==========================================================================
-   Thinny Menu Style
-   ========================================================================== */
+/* Thinny buttons */
+
 .header_section {
   width: 100%;
   position: fixed;
@@ -981,11 +948,33 @@ ul.nav > li.active > a {
   .hero_content {
     text-align: center;
   }
+  .section_heading .filters {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  h2 {
+    display: none;
+  }
 }
 /* ---- End of max-width 520px CSS ---- */
 
 /* ---- Start of max-width 420px CSS ---- */
 @media all and (max-width: 420px) {
+  .section_heading .filters {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  h2 {
+    display: none;
+  }
 }
 /* ---- End of max-width 420px CSS ---- */
 
